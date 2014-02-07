@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.files = FileList["#{src}/**/*.rb",
                      "#{testdir}/**/*.rb"]
   s.test_files = FileList["#{testdir}/**/*.rb"]
-  s.version = "1.0.1"
+  s.version = "1.0.2"
   s.summary = "A Win32 stub to allow windows registry using utilities"
   s.description = s.summary      
   s.has_rdoc = true
