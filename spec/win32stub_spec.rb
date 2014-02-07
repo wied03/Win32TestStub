@@ -1,6 +1,7 @@
 require "base"
 require 'win32/registry'
 require 'windows/registry'
+require 'win32ole'
 
 describe "win32stub" do
   it "Should not throw a ruby error with explicit key stuff specified" do
