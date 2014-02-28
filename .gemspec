@@ -5,7 +5,7 @@ src="lib"
 testdir="spec"
 
 Gem::Specification.new do |s|
-  s.name = "win32stub"
+  s.name = "windows-pr"
   s.files = FileList["#{src}/**/*.rb",
                      "#{testdir}/**/*.rb"]
   s.test_files = FileList["#{testdir}/**/*.rb"]
@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
   s.has_rdoc = true
   s.rdoc_options << '--inline-source' << '--line-numbers'
   s.author = "Brady Wied"
-  s.email = "brady@wied.us"        
+  s.email = "brady@bswtechconsulting.com"        
 end
